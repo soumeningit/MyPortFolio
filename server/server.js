@@ -14,7 +14,7 @@ app.use(express.json());
 
 const allowedOrigins = [
     "http://localhost:3000", // For local development
-    // For Render deployment
+    "https://myportfolio-jd7d.onrender.com"// For Render deployment
 ];
 
 app.use(

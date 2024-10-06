@@ -1,6 +1,9 @@
 import { apiConnector } from "./apiConnector";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = process.env.NODE_ENV === 'production'
+    ? "https://myportfolio-jd7d.onrender.com/api"  // Your production URL
+    : "http://localhost:4000/api";               // Local development URL
+
 const MESSAGE_SEND_URL = BASE_URL + "/sendMessage";
 
 export const sendMessageAPI = async (data) => {
