@@ -4,6 +4,7 @@ import img2 from "../assets/ChatAppImg.jpg"
 import img3 from "../assets/Ecommerce.png"
 import img4 from "../assets/WeatherApp.jpg"
 import img5 from "../assets/health.jpg"
+import img6 from "../assets/MockInterview.jpg"
 
 import { Link } from 'react-router-dom'
 
@@ -15,6 +16,14 @@ const images = [
         description: "E-Learning App is a web application that allows users to learn new skills and knowledge",
         link: "https://github.com/soumeningit/NucleusET",
         liveLink: "https://nucleuset-3jhf.onrender.com/"
+    },
+    {
+        id: 6,
+        image: img6,
+        title: "Mock Interview",
+        description: "This web application allows users to practice their interviews. After submission, users receive a detailed analysis of their performance. It offers both paid and free versions.",
+        link: "https://github.com/soumeningit/InstantMockInterview",
+        liveLink: "https://instant-mock-interview.vercel.app/"
     },
     {
         id: 2,
@@ -47,7 +56,8 @@ const images = [
         description: "Weather App is a web application that allows users to check the weather of different locations",
         link: "https://github.com/soumeningit/Weather-App",
         liveLink: "https://check-weather-sp.netlify.app/"
-    }
+    },
+
 ];
 
 function Projects() {
